@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="678.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView layoutX="14.0" layoutY="31.0" prefHeight="359.0" prefWidth="228.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="nume" />
+          <TableColumn prefWidth="75.0" text="deadline" />
+            <TableColumn prefWidth="75.0" text="status" />
+        </columns>
+      </TableView>
+      <Label layoutX="14.0" layoutY="14.0" text="Comenzi:" />
+      <Label layoutX="272.0" layoutY="14.0" text="Medicamente din comandă:" />
+      <TableView layoutX="272.0" layoutY="32.0" prefHeight="158.0" prefWidth="148.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="tip" />
+          <TableColumn prefWidth="75.0" text="cantitate" />
+        </columns>
+      </TableView>
+      <Button layoutX="285.0" layoutY="259.0" mnemonicParsing="false" text="Retragere comandă" />
+      <Button layoutX="287.0" layoutY="291.0" mnemonicParsing="false" text="Eliminare comandă" />
+      <ComboBox layoutX="478.0" layoutY="200.0" prefWidth="150.0" promptText="Tip" />
+      <DatePicker layoutX="469.0" layoutY="265.0" promptText="Termen limită" />
+      <Button layoutX="503.0" layoutY="334.0" mnemonicParsing="false" text="Plasare comandă" />
+      <Button layoutX="283.0" layoutY="226.0" mnemonicParsing="false" text="Modificare comandă" />
+      <Spinner layoutX="482.0" layoutY="233.0" />
+      <TableView layoutX="482.0" layoutY="32.0" prefHeight="158.0" prefWidth="148.0">
+         <columns>
+            <TableColumn prefWidth="75.0" text="tip" />
+            <TableColumn prefWidth="75.0" text="cantitate" />
+         </columns>
+      </TableView>
+      <Label layoutX="479.0" layoutY="14.0" text="Medicamente din comandă:" />
+      <Button layoutX="494.0" layoutY="304.0" mnemonicParsing="false" text="Adaugă" />
+      <Button layoutX="565.0" layoutY="304.0" mnemonicParsing="false" text="Elimină" />
+   </children>
+</AnchorPane>
