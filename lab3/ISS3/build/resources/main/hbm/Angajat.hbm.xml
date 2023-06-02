@@ -1,0 +1,9 @@
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping">
+    <class name="Domain.Angajat" table="angajati">
+        <id name="id" column="a_id">
+            <generator class="increment"/>
+        </id>
+        <property name="username" column="username"/>
+        <property name="password" column="password"/>
+    </class>
+</hibernate-mapping>
